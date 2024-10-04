@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reto 1.4 Tablas</title>
+<head>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .col-categoria {
+            background-color: #e0f7fa;
+            width: 30%;
+        }
+        .col-etiqueta {
+            background-color: #f1f8e9;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <table>
+
+        <h1><strong>Reto 1.4 Tablas</strong></h1>
+
+        <!-- Definimos las columnas usando colgroup -->
+        <colgroup>
+            <col class="col-categoria">
+            <col class="col-etiqueta">
+        </colgroup>
+
+        <!-- Usamos thead para la cabecera de la tabla -->
+        <thead>
+            <tr>
+                <th>Categoría</th>
+                <th>Etiquetas</th>
+            </tr>
+        </thead>
+
+        <!-- Cuerpo de la tabla -->
+        <tbody>
+            <!-- Primera categoría: Formulario -->
+            <tr>
+                <th rowspan="7">Formulario</th>
+                <td>form</td>
+            </tr>
+            <tr>
+                <td>button</td>
+            </tr>
+            <tr>
+                <td>input</td>
+            </tr>
+            <tr>
+                <td>select</td>
+            </tr>
+            <tr>
+                <td>textarea</td>
+            </tr>
+            <tr>
+                <td>label</td>
+            </tr>
+            <tr>
+                <td>fieldset</td>
+            </tr>
+
+            <!-- Segunda categoría: Tabla -->
+            <tr>
+                <th rowspan="6">Tabla</th>
+                <td>table</td>
+            </tr>
+            <tr>
+                <td>tr</td>
+            </tr>
+            <tr>
+                <td>th</td>
+            </tr>
+            <tr>
+                <td>td</td>
+            </tr>
+            <tr>
+                <td>caption</td>
+            </tr>
+            <tr>
+                <td>thead</td>
+            </tr>
+
+            <!-- Tercera categoría: Texto -->
+            <tr>
+                <th rowspan="6">Texto</th>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>em</td>
+            </tr>
+            <tr>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td>strong</td>
+            </tr>
+            <tr>
+                <td>sub</td>
+            </tr>
+            <tr>
+                <td>sup</td>
+            </tr>
+        </tbody>
+
+        <!-- Pie de tabla -->
+        <tfoot>
+            <tr>
+                <td colspan="2">Fin de la tabla de etiquetas HTML semánticas.</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
