@@ -1,7 +1,7 @@
 # Reto 1.4: Tabla
 ## Instrucciones:
-Nombre y Apellidos:
-URL del repositorio de gitlab:
+Nombre y Apellidos: Pablo Rodríguez Crespo
+URL del repositorio de gitlab: https://github.com/Pablosax9/ODAW2_RETO.1.4-Tabla.git
 
 Partiendo del fichero html dado realiza:
 Debes crear una página web que tenga el mismo aspecto que la siguiente imagen:
